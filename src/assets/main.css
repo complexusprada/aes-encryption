@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .select {
+      @apply flex w-full border border-gray-500 rounded-md mb-2 px-2 py-2
+    }
+
+    .textarea {
+      @apply w-full flex border border-gray-500 rounded-md mb-5 px-2
+    }
+
+    .form-group {
+      @apply flex flex-col gap-3
+    }
+
+    .form-group-textarea {
+      @apply flex flex-col gap-1
+    }
+
+    .input {
+      @apply flex w-full border border-gray-500 rounded-md mb-2 px-2 py-1
+    }
+
+    .btn {
+      @apply flex bg-blue-500 rounded-md px-4 py-3 text-white font-medium transition hover:bg-blue-400 active:shadow-blue-400 shadow my-3
+    }
+
+    .section {
+      @apply w-2/3
+    }
+  }
